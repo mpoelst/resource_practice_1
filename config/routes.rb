@@ -27,7 +27,7 @@ Rails.application.routes.draw do
   # READ
   get('/movies', { :controller => 'movies', :action => 'index' })
   get('/movies/:id', { :controller => 'movies', :action => 'show' })
-
+  #
   # UPDATE
   get('/movies/:id/edit_form', { :controller => 'movies', :action => 'edit_form' })
   get('/update_movie/:id', { :controller => 'movies', :action => 'update_row' })
