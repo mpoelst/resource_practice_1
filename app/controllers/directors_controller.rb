@@ -18,8 +18,8 @@ class DirectorsController < ApplicationController
     d.image_url = params[:image_url]
 
     d.save
-
-    #render("show")
+    #redirect_to ("http://localhost:3000/directors")
+    redirect_to ("http://localhost:3000/directors/#{d.id}")
   end
 
   def edit_form
