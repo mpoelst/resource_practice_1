@@ -46,4 +46,4 @@ class DirectorsController < ApplicationController
     @director.destroy
   end
 end
-#
+##

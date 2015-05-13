@@ -36,7 +36,7 @@ class ActorsController < ApplicationController
 
     a.save
 
-    #redirect_to ("http://localhost:3000/actors")
+    redirect_to ("http://localhost:3000/actors/#{a.id}")
   end
 
   def destroy
@@ -45,4 +45,4 @@ class ActorsController < ApplicationController
     @actor.destroy
   end
 end
-#
+##
